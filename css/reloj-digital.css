@@ -64,3 +64,13 @@ body {
     transition: font-size 0.5s ease;
     text-align: center;
 }
+
+#fraseDiv {
+    font-size: 20px;
+    margin-bottom: 20px;
+    transition: font-size 0.5s ease;
+    text-align: center;
+    width: 100%;
+    color: aqua;
+    font-weight: bold;
+}
