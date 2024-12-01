@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    color: #333;
+    overflow: hidden;
+    transition: background-color 0.5s ease;
+}
+
+
+#dashboard {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #0a0a0a;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* imagenes centradas, que no excedan el body y que no se repitan */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* Capa semitransparente */
+    background-color: rgba(0, 0, 0, 0.7); /* Cambia el color y la opacidad */
+    background-blend-mode: overlay; /* Mezcla el color con la imagen */
+}
+
+#zonaHorariaDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#reloj-digital {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: font-size 0.5s ease;
+    text-align: center;
+
+    /* Añadimos estilos para el reloj */
+    position: relative;
+    width: 300px;
+    height: 300px;
+    color: aliceblue;
+}
+
+#fecha {
+    
+    font-size: 20px;
+    margin-bottom: 20px;
+    transition: font-size 0.5s ease;
+    text-align: center;
+}
