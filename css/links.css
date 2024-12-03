@@ -1,0 +1,78 @@
+/* div para título, campos y boton de los enlaces */
+#links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    background-color: lightgray;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    color: white;
+    /*color de fondo semitransparente*/
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: background-color 0.3s; 
+}
+
+#links h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    /*color de texto extraño*/
+    color: rgb(248, 244, 244);
+    /*shadow de texto*/
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid black;
+}
+
+#links input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+}
+
+#btnAgregar {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#divEnlaces {
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#btnEnlaces {
+    display: inline-block; /* los botones se colocan en linea */
+    padding: 10px 20px;    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* background-color y color compatibles con fondo oscuro */
+    background-color: rgba(179, 24, 24, 0.5);
+    color: white;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
